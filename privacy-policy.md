@@ -5,7 +5,7 @@ title: DutyTracker Privacy Policy
 
 # DutyTracker Privacy Policy
 
-*Last updated: 2026-04-23*
+*Last updated: 2026-06-24*
 
 DutyTracker ("the app") is an iOS application that helps surgery
 residents log duty hours, track ACGME compliance, and submit hours
@@ -46,8 +46,9 @@ carries across your own Apple devices.
 Each shift you log (arrival time, departure time, hospital ID) is
 stored in App Group UserDefaults on the device and optionally
 synced to your personal iCloud account via CloudKit. Records are
-submitted to MedHub when you use the Log Now or weekly auto-submit
-features. The app does not aggregate shift data across users.
+submitted to MedHub only when you tap Log Now yourself — the app
+reminds you each Sunday to do so. The app does not aggregate shift
+data across users.
 
 ### Nothing else
 The app does not collect your name, email address, phone number,
@@ -78,9 +79,10 @@ tracking in its Privacy Manifest.
   Delete Data.
 - **Disconnect MedHub**: Settings → MedHub → Disconnect MedHub
   clears credentials from your Keychain immediately.
-- **Turn off auto-submit**: Settings → Auto-submit → "Weekly
-  auto-submit" toggle. This stops all scheduled submissions and
-  notifications without uninstalling.
+- **Control reminders & submission**: the app sends weekly Sunday
+  reminders (9 AM / 10 AM / noon) prompting you to submit; you can turn
+  these off in Settings. Hours are only ever submitted to MedHub when
+  you tap Log Now yourself — nothing is sent automatically.
 
 ## Security
 
